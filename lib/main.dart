@@ -1,3 +1,4 @@
+import 'package:click_alternative/screens/analytics_screen.dart';
 import 'package:click_alternative/screens/cards_screen.dart';
 import 'package:click_alternative/screens/home_screen.dart';
 import 'package:flutter/material.dart';
@@ -11,7 +12,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: CardScreen(),
+      home: HomeScreen(),
     );
   }
 }
